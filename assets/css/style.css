@@ -1,3 +1,10 @@
 .jumbotron {
-	margin-top: 100px;
+	
 }
+
+.customclass {
+	width: 33.33% ;
+	margin: 0 auto;
+	float: none;
+}
+

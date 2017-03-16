@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
     <div class="container">
+        [Blog Template]
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4">

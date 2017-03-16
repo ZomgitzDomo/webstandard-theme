@@ -1,5 +1,9 @@
 <?php
-
+// /*-------------------------------------
+// | navwalker
+// -------------------------------------*/
+// // Register Custom Navigation Walker
+// require_once('wp_bootstrap_navwalker.php');
 /*-------------------------------------
 | Menus
 -------------------------------------*/
@@ -8,6 +12,24 @@ function webstandards_register_menu() {
   register_nav_menu('main-menu', __( 'Main Menu') );
 }
 add_action('init', 'webstandards_register_menu');
+
+/*-------------------------------------
+| widgets
+-------------------------------------*/
+function create_widget($name, $id, $description) {
+    register_sidebar(array(
+      'name' => __( $name ),
+      'id'   => $id,
+      'description' => __( $description ),
+      'before_widget' => '<div class="widget">',
+      'after_widget' => '</div>',
+      'before_title' => '<h2>',
+      'after_title' => '</h2>'
+    ));
+}
+
+create_widget( 'Front Page Ad', 'front-ad', 'Displays add on hompage');
+create_widget( 'Blog Sidebar', 'blog-side', 'Displays on the right of the blog page');
 
 
 

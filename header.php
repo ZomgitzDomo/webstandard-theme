@@ -16,18 +16,18 @@
   </head>
 
 <body <?php body_class(); ?>>
-  <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+  <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
 
       <a class="navbar-brand" href="<?php bloginfo( 'url'); ?>"><?php bloginfo( 'name'); ?></a>
 
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-      
+
         <?php
         $defaults = array(
         'theme_location'  => 'main-menu',
         'menu'            => '',
         'container'       => 'ul',
-        'container_class' => 'navbar-nav mr-auto',
+        'container_class' => 'navbar-nav',
         'container_id'    => '',
         'menu_class'      => 'nav-item',
         'menu_id'         => '',
@@ -49,9 +49,7 @@
 	<!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1 class="display-3">Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+        	<img class="img-fluid" src = "<?php bloginfo('stylesheet_directory'); ?>/assets/img/jumbotron.png">
       </div>
     </div>
 
