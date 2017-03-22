@@ -40,9 +40,9 @@ This is an open book exam. You can use your class notes, my online notes and you
 [x] Create 5 posts and populate with **latin filler text**
 [x] Each post should have a featured image
 [x] When finished custom theme, create an assets folder and put `uploads` inside it (_`/your-theme/db/uploads'`_) and export your finished database and place that inside (_`/your-theme/assets/db/your-theme.sql`_)
-[] Your site should use `Sass`
-[] Grab a color pallete from `Adobe Kuler`
-[] Use Sass in your `_variables` partial to define your colors
+[x] Your site should use `Sass`
+[x] Grab a color pallete from `Adobe Kuler`
+[x] Use Sass in your `_variables` partial to define your colors
 [] Add a `Google font` for `h1` and `h2` tags in your site
 [x] Install and activate the `Contact Form 7` plugin and figure out how to use WordPress short codes to add the form to your `contact` page
 [x] Add and `SEO Yoast` and `Jetpack plugins` to your site and activate them

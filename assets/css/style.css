@@ -1,10 +1,24 @@
+body {
+  background-color: #292b2c;
+  color: white; }
+
+h1, h2 {
+  font-family: Open Sans; }
+
 .jumbotron {
-	
-}
+  background-color: #c1e1a6; }
 
-.customclass {
-	width: 33.33% ;
-	margin: 0 auto;
-	float: none;
-}
+.navbar {
+  background-color: #585858; }
 
+#menu-primary-menu {
+  display: inline-flex; }
+
+#navbarsExampleDefault a {
+  text-decoration: none;
+  margin-right: 20px; }
+
+a {
+  color: #118C4E; }
+
+/*# sourceMappingURL=style.css.map */

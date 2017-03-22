@@ -1,0 +1,31 @@
+body {
+    background-color: #292b2c;
+    color: white;
+}
+
+h1, h2 {
+	font-family: Open Sans;
+}
+
+.jumbotron {
+    background-color: $jumbotron;
+}
+
+.navbar {
+	background-color: $header-color;
+}
+
+#menu-primary-menu {
+    display: inline-flex;
+}
+
+#navbarsExampleDefault a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+a {
+    color: $atags;
+
+}
+

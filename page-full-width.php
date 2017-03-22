@@ -1,6 +1,13 @@
 <?php
 //Template Name: Full Width Template
-get_header(); ?>
+if(is_page(12)) {
+ get_header('about');
+}
+else {
+ get_header();
+}
+ wp_head();
+?>
 
     <div class="container">
         [Full Width Template]

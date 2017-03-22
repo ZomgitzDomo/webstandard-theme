@@ -14,6 +14,15 @@ function webstandards_register_menu() {
 add_action('init', 'webstandards_register_menu');
 
 /*-------------------------------------
+| google fonts
+-------------------------------------*/
+function drones_add_google_fonts() {
+  wp_register_style( 'googleFonts', 'http://fonts.googleapis.com/css?family=Open+Sans:400,300');
+  wp_enqueue_style( 'googleFonts');
+}
+add_action( 'wp_enqueue_scripts', 'drones_add_google_fonts' );
+
+/*-------------------------------------
 | widgets
 -------------------------------------*/
 function create_widget($name, $id, $description) {
